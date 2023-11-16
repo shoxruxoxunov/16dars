@@ -1,0 +1,113 @@
+body {
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+    color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+    text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+    margin: 3rem;
+    font-family: Sansita;
+}
+
+.wrapper {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Sansita;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: Sansita;
+    font-family: Sansita;
+}
+
+#input1 {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+#input2 {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+#input3 {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+#select {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+#img {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+#checkbox {
+    width: 20px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Sansita;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    /* font-size: 28px;
+    padding: 20px; */
+    height: 30px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Sansita;
+}
+
+.button span {
+    font-family: Sansita;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
